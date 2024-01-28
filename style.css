@@ -3,20 +3,21 @@
     margin: 0;
 }
 body {
-    width: 90%;
+   width: 100%;
    
+    
 }
 
 
 nav{
-    width: 100%;
+    /* width: 100%; */
     height: 75px;
     line-height: 75px;
     margin-top: 30px;
-    
+    padding: 1% 5%;
 }
 nav h1 {
-    padding-left: 200px;
+    /* padding-left: 200px; */
     font-size: 20px;
     font-family:'Poppins', sans-serif;
     font-weight:bold;
@@ -50,30 +51,33 @@ nav ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
+
     
 }
 .box-1{
         display: flex;
         flex-direction: column;
-        padding-right:10%;
+        /* padding-right:10%; */
         gap: 20px;
-        padding-left: 100px;
+        /* padding-left: 200px; */
+        font-family:'Poppins', sans-serif ;
+        color: #3A3A3A;
         
 
              
     }
-    .box-1 h1{
+.box-1 h1{
         font-size: 52px;
         font-family:'Poppins', sans-serif ;
         color: #3A3A3A;
 
     }
-     .box-1 p{
+.box-1 p{
         font-size: 16px;
         
      }
     
-    .box-1 button  {
+.box-1 button  {
         width: 180px;
         height: 44px; 
         margin-bottom: 20px;
@@ -82,7 +86,8 @@ nav ul li a{
         border-radius: 25px;
         color: white;
         font-size: 16px;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Poppins', sans-serif ;
+
         
     
     }
@@ -107,7 +112,7 @@ nav ul li a{
 /* ------ */
 
     .container-2{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,8 +135,6 @@ nav ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 10%;
-
     }
  
 .container-3  h1{
@@ -143,16 +146,56 @@ nav ul li a{
 /* ---------- */
 
 .container-4{
-    padding: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        /* width: 100%; */
+        gap: 20px;
+        padding: 5% 5% 5% 5%;
+    }
     
-}
-.photo-info{
-    color: orange;
-}
+.album {
+        display: flex;
+        justify-content: center;
+        width: 25%;
+        
+    }
+.photo{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        background-color:gainsboro;
+        padding: 5%;
+        border-radius: 3PX;
+  
+    }
+     
+.photo-detail {
+        font-family:'Poppins', sans-serif ;
+        font-size: 12px;
+        color: #3a3a3a;
+        
+    }
+    
+.photo-info i{
+        color: orange;
+
+    }
+.photo img{
+        width: 100%;
+    }
+.box-2-color{
+        background-color: #ff59591a;
+    }
+.box-3-color{
+        background-color:white;
+    }
+.photo.photo-banner{
+        height: 80px;
+    }
+   
 
 
 /* -------- */
@@ -171,15 +214,12 @@ nav ul li a{
     column-gap: 72px;
 }
 .section-3-left-part{
-    width: 400px;
 
 }
 .section-3-left-part img{
-    width: 404px;
     padding-left: 50%;
 }
 .section-3-right-part{
-    width: 654px;
     padding-left: 20%;
 
 }
@@ -215,14 +255,13 @@ a.link-button{
 
 .footer{
     background-color: #0A0826;
-    width: 100%;
+    /* width: 100%; */
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 10px ;
-    padding-left: 11%;
    
 }
 .footer h2 {
@@ -233,8 +272,7 @@ a.link-button{
     
 }
  
- 
- .footer p{
+.footer p{
     color: #D9DBE1;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -242,9 +280,78 @@ a.link-button{
     padding-right: 5%; 
     
  }
- .footer-container{
+.footer-container{
    padding-right: 5%;
-   }
+  
+   display: flex;
+   gap: 15px;
+   
+}
+.footer-container i{
+    color: white;
+       
+}
+
+/* Responsive css */
+
+@media screen and (max-width: 767px){
+
+    nav h1 {
+        padding-left: 80px;
+        
+    }
+    .container-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 10px;
+        
+        
+          
+    }
+    
+
+    /* ------------- */
+
+    
+    .box-2 img{ 
+        width: 300px;
+        height: auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        padding-left: 25%;
+           
+    }
+
+    /* ------------ */
+
+    .cintainer-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+         
+        
+    }
+    
+
+    
+ }
+
+
+
+    
+    
+    
+        
+        
+
+
+
+
+
    
  
 
